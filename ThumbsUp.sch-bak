@@ -1208,9 +1208,6 @@ Wire Wire Line
 Connection ~ 8150 12700
 Wire Wire Line
 	8150 12700 8150 13500
-Connection ~ 8150 11900
-Wire Wire Line
-	8150 11900 8150 12700
 Connection ~ 10350 11850
 Wire Wire Line
 	10350 11850 10350 12650
@@ -1488,8 +1485,6 @@ Wire Wire Line
 Wire Wire Line
 	5200 5750 3950 5750
 Connection ~ 3950 5750
-Wire Wire Line
-	5200 8000 5200 7100
 Connection ~ 5200 7100
 $Comp
 L power:+1V1 #PWR0108
@@ -1902,8 +1897,6 @@ Text GLabel 4100 14700 0    50   Input ~ 0
 K_LALT
 Text GLabel 7250 12100 0    50   Input ~ 0
 K_R
-Text GLabel 7950 12100 0    50   Input ~ 0
-K_T
 Text GLabel 7250 12900 0    50   Input ~ 0
 K_F
 Text GLabel 7950 12900 0    50   Input ~ 0
@@ -2558,8 +2551,6 @@ Wire Wire Line
 	15500 5700 14250 5700
 Connection ~ 14250 5700
 Wire Wire Line
-	14550 7950 15500 7950
-Wire Wire Line
 	15500 7950 15500 7050
 Connection ~ 15500 7050
 $Comp
@@ -2996,68 +2987,11 @@ F 3 "~" H 5600 12700 50  0001 C CNN
 	1    5600 12700
 	1    0    0    1   
 $EndComp
-$Comp
-L STX-3501-3N:STX-3501-3N J46
-U 1 1 63F7C0D7
-P 15450 8050
-F 0 "J46" V 15804 8178 50  0000 L CNN
-F 1 "STX-3501-3N" V 15895 8178 50  0000 L CNN
-F 2 "STX-3501-3N:STX35013N" H 16100 8150 50  0001 L CNN
-F 3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ae9d1df0991347f2f81145ba35ca04dc.pdf" H 16100 8050 50  0001 L CNN
-F 4 "Phone Connectors 3.5mm S LUGS STEREO 3P THRU HOLE" H 16100 7950 50  0001 L CNN "Description"
-F 5 "5" H 16100 7850 50  0001 L CNN "Height"
-F 6 "Kycon" H 16100 7750 50  0001 L CNN "Manufacturer_Name"
-F 7 "STX-3501-3N" H 16100 7650 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "806-STX-3501-3N" H 16100 7550 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Kycon/STX-3501-3N?qs=BBNwCsfFaznpJt4o1Jp%2FTg%3D%3D" H 16100 7450 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 16100 7350 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 16100 7250 50  0001 L CNN "Arrow Price/Stock"
-F 12 "" H 16100 7150 50  0001 L CNN "Mouser Testing Part Number"
-F 13 "" H 16100 7050 50  0001 L CNN "Mouser Testing Price/Stock"
-	1    15450 8050
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0149
-U 1 1 641658E3
-P 5500 8100
-F 0 "#PWR0149" H 5500 7850 50  0001 C CNN
-F 1 "GND" H 5505 7927 50  0000 C CNN
-F 2 "" H 5500 8100 50  0001 C CNN
-F 3 "" H 5500 8100 50  0001 C CNN
-	1    5500 8100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5300 8100 5500 8100
-Wire Wire Line
-	5300 8900 5500 8900
 Text GLabel 5050 8100 3    50   Input ~ 0
 L-TIP
-Text GLabel 5500 8100 2    50   Input ~ 0
-L-BASE
-Text GLabel 5500 8900 2    50   Input ~ 0
-L-RING1
-$Comp
-L power:GND #PWR0152
-U 1 1 64226D4D
-P 15700 8050
-F 0 "#PWR0152" H 15700 7800 50  0001 C CNN
-F 1 "GND" H 15705 7877 50  0000 C CNN
-F 2 "" H 15700 8050 50  0001 C CNN
-F 3 "" H 15700 8050 50  0001 C CNN
-	1    15700 8050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	15450 8050 15700 8050
-Wire Wire Line
-	15450 8850 15700 8850
 Text GLabel 15100 8050 1    50   Input ~ 0
 R-TIP
-Text GLabel 15700 8050 2    50   Input ~ 0
-R-BASE
-Text GLabel 15700 8850 2    50   Input ~ 0
+Text GLabel 16250 7950 2    50   Input ~ 0
 R-RING1
 $Comp
 L Connector:Conn_01x04_Female J47
@@ -3215,52 +3149,16 @@ F 3 "" H 19050 12500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+5V #PWR0147
-U 1 1 63F119E5
-P 5300 8900
-F 0 "#PWR0147" H 5300 8750 50  0001 C CNN
-F 1 "+5V" H 5315 9073 50  0000 C CNN
-F 2 "" H 5300 8900 50  0001 C CNN
-F 3 "" H 5300 8900 50  0001 C CNN
-	1    5300 8900
-	-1   0    0    1   
-$EndComp
-Connection ~ 5300 8900
-Wire Wire Line
-	4250 8000 5200 8000
-$Comp
-L STX-3501-3N:STX-3501-3N J36
-U 1 1 63D573AD
-P 5300 8100
-F 0 "J36" V 5654 8228 50  0000 L CNN
-F 1 "STX-3501-3N" V 5745 8228 50  0000 L CNN
-F 2 "STX-3501-3N:STX35013N" H 5950 8200 50  0001 L CNN
-F 3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ae9d1df0991347f2f81145ba35ca04dc.pdf" H 5950 8100 50  0001 L CNN
-F 4 "Phone Connectors 3.5mm S LUGS STEREO 3P THRU HOLE" H 5950 8000 50  0001 L CNN "Description"
-F 5 "5" H 5950 7900 50  0001 L CNN "Height"
-F 6 "Kycon" H 5950 7800 50  0001 L CNN "Manufacturer_Name"
-F 7 "STX-3501-3N" H 5950 7700 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "806-STX-3501-3N" H 5950 7600 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Kycon/STX-3501-3N?qs=BBNwCsfFaznpJt4o1Jp%2FTg%3D%3D" H 5950 7500 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 5950 7400 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 5950 7300 50  0001 L CNN "Arrow Price/Stock"
-F 12 "" H 5950 7200 50  0001 L CNN "Mouser Testing Part Number"
-F 13 "" H 5950 7100 50  0001 L CNN "Mouser Testing Price/Stock"
-	1    5300 8100
-	0    1    1    0   
-$EndComp
-$Comp
 L power:+5V #PWR0148
 U 1 1 63FA1289
-P 15450 8850
-F 0 "#PWR0148" H 15450 8700 50  0001 C CNN
-F 1 "+5V" H 15465 9023 50  0000 C CNN
-F 2 "" H 15450 8850 50  0001 C CNN
-F 3 "" H 15450 8850 50  0001 C CNN
-	1    15450 8850
-	-1   0    0    1   
+P 16150 7950
+F 0 "#PWR0148" H 16150 7800 50  0001 C CNN
+F 1 "+5V" H 16165 8123 50  0000 C CNN
+F 2 "" H 16150 7950 50  0001 C CNN
+F 3 "" H 16150 7950 50  0001 C CNN
+	1    16150 7950
+	1    0    0    -1  
 $EndComp
-Connection ~ 15450 8850
 $Comp
 L Device:R R4
 U 1 1 63C3C97D
@@ -3354,10 +3252,6 @@ F 13 "" H 14400 6650 50  0001 L CNN "Mouser Testing Price/Stock"
 	1    0    0    -1  
 $EndComp
 Connection ~ 15000 8050
-Wire Wire Line
-	15000 8050 15350 8050
-Wire Wire Line
-	14550 8050 15000 8050
 Text GLabel 14550 7850 2    50   Input ~ 0
 K_BSPC
 Text GLabel 12550 7150 0    50   Input ~ 0
@@ -3623,8 +3517,6 @@ $EndComp
 Wire Wire Line
 	8150 10800 8350 10800
 Connection ~ 8150 10800
-Wire Wire Line
-	8150 11100 8150 11900
 Text GLabel 6350 12400 2    50   Input ~ 0
 K_GRAVE
 Text GLabel 6350 12300 2    50   Input ~ 0
@@ -3891,8 +3783,6 @@ F 3 "" H 14500 15800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 14500 15800
-Text GLabel 5600 15050 2    50   Input ~ 0
-K_WIN
 NoConn ~ 3450 9200
 NoConn ~ 3550 9200
 Text GLabel 4250 8200 2    50   Input ~ 0
@@ -3913,8 +3803,6 @@ $EndComp
 Wire Wire Line
 	4250 8100 4850 8100
 Connection ~ 4850 8100
-Wire Wire Line
-	4850 8100 5200 8100
 Text GLabel 4250 7800 2    50   Input ~ 0
 K_3
 Text GLabel 4250 8300 2    50   Input ~ 0
@@ -3925,8 +3813,6 @@ Text GLabel 3850 9200 3    50   Input ~ 0
 K_5
 Text GLabel 3750 9200 3    50   Input ~ 0
 K_4
-Text GLabel 20550 10400 3    50   Input ~ 0
-K_5
 $Comp
 L Connector:Conn_01x04_Female J51
 U 1 1 64043CBA
@@ -4295,4 +4181,125 @@ Text Notes 4250 15650 0    50   ~ 0
 This key is linke only to suppress the error on the overlapping pads.\nThe pin is not used\n
 Text GLabel 14550 8350 2    50   Input ~ 0
 K_THR
+$Comp
+L power:+5V #PWR0147
+U 1 1 63F119E5
+P 6000 8000
+F 0 "#PWR0147" H 6000 7850 50  0001 C CNN
+F 1 "+5V" H 6015 8173 50  0000 C CNN
+F 2 "" H 6000 8000 50  0001 C CNN
+F 3 "" H 6000 8000 50  0001 C CNN
+	1    6000 8000
+	1    0    0    -1  
+$EndComp
+Text GLabel 6200 8000 2    50   Input ~ 0
+L-RING1
+Wire Wire Line
+	6000 8000 6200 8000
+Text GLabel 6200 8100 2    50   Input ~ 0
+L-BASE
+Wire Wire Line
+	6000 8100 6200 8100
+$Comp
+L power:GND #PWR0149
+U 1 1 641658E3
+P 6000 8100
+F 0 "#PWR0149" H 6000 7850 50  0001 C CNN
+F 1 "GND" H 6005 7927 50  0000 C CNN
+F 2 "" H 6000 8100 50  0001 C CNN
+F 3 "" H 6000 8100 50  0001 C CNN
+	1    6000 8100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 8000 5200 7100
+Wire Wire Line
+	4250 8000 5200 8000
+Wire Wire Line
+	4850 8100 5200 8100
+$Comp
+L power:GND #PWR0152
+U 1 1 64226D4D
+P 16150 8050
+F 0 "#PWR0152" H 16150 7800 50  0001 C CNN
+F 1 "GND" H 16155 7877 50  0000 C CNN
+F 2 "" H 16150 8050 50  0001 C CNN
+F 3 "" H 16150 8050 50  0001 C CNN
+	1    16150 8050
+	1    0    0    -1  
+$EndComp
+Text GLabel 16250 8050 2    50   Input ~ 0
+R-BASE
+$Comp
+L STX-3501-3N:STX-3501-3N J36
+U 1 1 63D573AD
+P 6000 8100
+F 0 "J36" V 6354 8228 50  0000 L CNN
+F 1 "PJ-3200B" V 6445 8228 50  0000 L CNN
+F 2 "random-keyboard-parts:PJ-3200B-4A" H 6650 8200 50  0001 L CNN
+F 3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ae9d1df0991347f2f81145ba35ca04dc.pdf" H 6650 8100 50  0001 L CNN
+F 4 "Phone Connectors 3.5mm S LUGS STEREO 3P THRU HOLE" H 6650 8000 50  0001 L CNN "Description"
+F 5 "5" H 6650 7900 50  0001 L CNN "Height"
+F 6 "Kycon" H 6650 7800 50  0001 L CNN "Manufacturer_Name"
+F 7 "STX-3501-3N" H 6650 7700 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "806-STX-3501-3N" H 6650 7600 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Kycon/STX-3501-3N?qs=BBNwCsfFaznpJt4o1Jp%2FTg%3D%3D" H 6650 7500 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 6650 7400 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 6650 7300 50  0001 L CNN "Arrow Price/Stock"
+F 12 "" H 6650 7200 50  0001 L CNN "Mouser Testing Part Number"
+F 13 "" H 6650 7100 50  0001 L CNN "Mouser Testing Price/Stock"
+	1    6000 8100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	15000 8050 15350 8050
+Wire Wire Line
+	14550 8050 15000 8050
+Wire Wire Line
+	14550 7950 15500 7950
+$Comp
+L STX-3501-3N:STX-3501-3N J46
+U 1 1 63F7C0D7
+P 16150 8050
+F 0 "J46" V 16504 8178 50  0000 L CNN
+F 1 "PJ-3200B" V 16595 8178 50  0000 L CNN
+F 2 "random-keyboard-parts:PJ-3200B-4A" H 16800 8150 50  0001 L CNN
+F 3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ae9d1df0991347f2f81145ba35ca04dc.pdf" H 16800 8050 50  0001 L CNN
+F 4 "Phone Connectors 3.5mm S LUGS STEREO 3P THRU HOLE" H 16800 7950 50  0001 L CNN "Description"
+F 5 "5" H 16800 7850 50  0001 L CNN "Height"
+F 6 "Kycon" H 16800 7750 50  0001 L CNN "Manufacturer_Name"
+F 7 "STX-3501-3N" H 16800 7650 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "806-STX-3501-3N" H 16800 7550 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Kycon/STX-3501-3N?qs=BBNwCsfFaznpJt4o1Jp%2FTg%3D%3D" H 16800 7450 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 16800 7350 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 16800 7250 50  0001 L CNN "Arrow Price/Stock"
+F 12 "" H 16800 7150 50  0001 L CNN "Mouser Testing Part Number"
+F 13 "" H 16800 7050 50  0001 L CNN "Mouser Testing Price/Stock"
+	1    16150 8050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	16150 8050 16250 8050
+Connection ~ 16150 8050
+Wire Wire Line
+	16150 7950 16250 7950
+Connection ~ 16150 7950
+Connection ~ 6000 8000
+Connection ~ 6000 8100
+Text GLabel 7950 12100 0    50   Input ~ 0
+K_T
+NoConn ~ 20550 10400
+Wire Wire Line
+	8150 11100 8150 11900
+Connection ~ 8150 11900
+Wire Wire Line
+	8150 11900 8150 12700
+NoConn ~ 5600 15250
+NoConn ~ 5600 15350
+NoConn ~ 5600 15050
+NoConn ~ 5600 15150
+NoConn ~ 4900 15100
+NoConn ~ 4900 15200
+NoConn ~ 4900 15300
+NoConn ~ 4900 15400
 $EndSCHEMATC
