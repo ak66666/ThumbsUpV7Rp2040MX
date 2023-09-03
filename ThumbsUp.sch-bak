@@ -4823,4 +4823,10 @@ Wire Wire Line
 Connection ~ 19900 7250
 Wire Wire Line
 	19900 7250 20150 7250
+Text Notes 20750 4800 0    50   ~ 0
+=- Pattern
+Text Notes 20650 6200 0    50   ~ 0
+- - _ Extra key in the middle finger column
+Text Notes 20600 7700 0    50   ~ 0
+_-- Extra key over the inner edge
 $EndSCHEMATC
