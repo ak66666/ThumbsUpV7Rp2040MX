@@ -2099,23 +2099,23 @@ Wire Wire Line
 $Comp
 L Device:R_Small R14
 U 1 1 63C3375B
-P 14650 5850
-F 0 "R14" V 14454 5850 50  0000 C CNN
-F 1 "27.4" V 14545 5850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 14650 5850 50  0001 C CNN
-F 3 "~" H 14650 5850 50  0001 C CNN
-	1    14650 5850
+P 11200 5800
+F 0 "R14" V 11004 5800 50  0000 C CNN
+F 1 "27.4" V 11095 5800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 11200 5800 50  0001 C CNN
+F 3 "~" H 11200 5800 50  0001 C CNN
+	1    11200 5800
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_Small R15
 U 1 1 63C33761
-P 14900 5950
-F 0 "R15" V 14704 5950 50  0000 C CNN
-F 1 "27.4" V 14795 5950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 14900 5950 50  0001 C CNN
-F 3 "~" H 14900 5950 50  0001 C CNN
-	1    14900 5950
+P 11450 5900
+F 0 "R15" V 11254 5900 50  0000 C CNN
+F 1 "27.4" V 11345 5900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 11450 5900 50  0001 C CNN
+F 3 "~" H 11450 5900 50  0001 C CNN
+	1    11450 5900
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -2186,39 +2186,39 @@ Connection ~ 17500 2450
 $Comp
 L Device:C_Small C21
 U 1 1 63C3378B
-P 16600 5550
-F 0 "C21" V 16371 5550 50  0000 C CNN
-F 1 "27pF" V 16462 5550 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 16600 5550 50  0001 C CNN
-F 3 "~" H 16600 5550 50  0001 C CNN
-	1    16600 5550
+P 13150 5500
+F 0 "C21" V 12921 5500 50  0000 C CNN
+F 1 "27pF" V 13012 5500 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 13150 5500 50  0001 C CNN
+F 3 "~" H 13150 5500 50  0001 C CNN
+	1    13150 5500
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:C_Small C22
 U 1 1 63C33791
-P 16600 5900
-F 0 "C22" V 16371 5900 50  0000 C CNN
-F 1 "27pF" V 16462 5900 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 16600 5900 50  0001 C CNN
-F 3 "~" H 16600 5900 50  0001 C CNN
-	1    16600 5900
+P 13150 5850
+F 0 "C22" V 12921 5850 50  0000 C CNN
+F 1 "27pF" V 13012 5850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 13150 5850 50  0001 C CNN
+F 3 "~" H 13150 5850 50  0001 C CNN
+	1    13150 5850
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0123
 U 1 1 63C33797
-P 16500 6100
-F 0 "#PWR0123" H 16500 5850 50  0001 C CNN
-F 1 "GND" H 16505 5927 50  0000 C CNN
-F 2 "" H 16500 6100 50  0001 C CNN
-F 3 "" H 16500 6100 50  0001 C CNN
-	1    16500 6100
+P 13050 6050
+F 0 "#PWR0123" H 13050 5800 50  0001 C CNN
+F 1 "GND" H 13055 5877 50  0000 C CNN
+F 2 "" H 13050 6050 50  0001 C CNN
+F 3 "" H 13050 6050 50  0001 C CNN
+	1    13050 6050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	16500 5550 16500 5900
-Connection ~ 16500 5900
+	13050 5500 13050 5850
+Connection ~ 13050 5850
 $Comp
 L Device:R_Small R12
 U 1 1 63C3379F
@@ -2230,9 +2230,9 @@ F 3 "~" H 13000 3250 50  0001 C CNN
 	1    13000 3250
 	0    -1   -1   0   
 $EndComp
-Text GLabel 15000 5850 2    50   Input ~ 0
+Text GLabel 11550 5800 2    50   Input ~ 0
 RD+
-Text GLabel 15000 5950 2    50   Input ~ 0
+Text GLabel 11550 5900 2    50   Input ~ 0
 RD-
 Wire Wire Line
 	13900 1450 13900 1250
@@ -2277,7 +2277,7 @@ Wire Wire Line
 	16750 2150 16750 2200
 Connection ~ 17100 2150
 Wire Wire Line
-	16500 5900 16500 6100
+	13050 5850 13050 6050
 $Comp
 L power:+5V #PWR0124
 U 1 1 63C337BF
@@ -2516,124 +2516,124 @@ Wire Wire Line
 Wire Wire Line
 	17350 1450 17000 1450
 Wire Wire Line
-	12550 7950 12050 7950
+	9100 7900 8600 7900
 $Comp
 L power:+3.3V #PWR0135
 U 1 1 63C3385C
-P 12050 5700
-F 0 "#PWR0135" H 12050 5550 50  0001 C CNN
-F 1 "+3.3V" H 12065 5873 50  0000 C CNN
-F 2 "" H 12050 5700 50  0001 C CNN
-F 3 "" H 12050 5700 50  0001 C CNN
-	1    12050 5700
+P 8600 5650
+F 0 "#PWR0135" H 8600 5500 50  0001 C CNN
+F 1 "+3.3V" H 8615 5823 50  0000 C CNN
+F 2 "" H 8600 5650 50  0001 C CNN
+F 3 "" H 8600 5650 50  0001 C CNN
+	1    8600 5650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14250 6150 14250 5700
+	10800 6100 10800 5650
 Wire Wire Line
-	14250 5700 14150 5700
-Connection ~ 12050 5700
+	10800 5650 10700 5650
+Connection ~ 8600 5650
 Wire Wire Line
-	13750 6150 13750 5700
-Connection ~ 13750 5700
+	10300 6100 10300 5650
+Connection ~ 10300 5650
 Wire Wire Line
-	13750 5700 13650 5700
+	10300 5650 10200 5650
 Wire Wire Line
-	13650 6150 13650 5700
-Connection ~ 13650 5700
+	10200 6100 10200 5650
+Connection ~ 10200 5650
 Wire Wire Line
-	13650 5700 12050 5700
+	10200 5650 8600 5650
 Wire Wire Line
-	14550 7050 15500 7050
+	11100 7000 12050 7000
 Wire Wire Line
-	15500 7050 15500 5700
+	12050 7000 12050 5650
 Wire Wire Line
-	15500 5700 14250 5700
-Connection ~ 14250 5700
+	12050 5650 10800 5650
+Connection ~ 10800 5650
 Wire Wire Line
-	15500 7950 15500 7050
-Connection ~ 15500 7050
+	12050 7900 12050 7000
+Connection ~ 12050 7000
 $Comp
 L power:+1V1 #PWR0136
 U 1 1 63C33872
-P 14050 5450
-F 0 "#PWR0136" H 14050 5300 50  0001 C CNN
-F 1 "+1V1" H 14065 5623 50  0000 C CNN
-F 2 "" H 14050 5450 50  0001 C CNN
-F 3 "" H 14050 5450 50  0001 C CNN
-	1    14050 5450
+P 10600 5400
+F 0 "#PWR0136" H 10600 5250 50  0001 C CNN
+F 1 "+1V1" H 10615 5573 50  0000 C CNN
+F 2 "" H 10600 5400 50  0001 C CNN
+F 3 "" H 10600 5400 50  0001 C CNN
+	1    10600 5400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14050 6150 14050 5550
+	10600 6100 10600 5500
 Wire Wire Line
-	13550 6150 13550 5550
+	10100 6100 10100 5500
 Wire Wire Line
-	13550 5550 14050 5550
-Connection ~ 14050 5550
+	10100 5500 10600 5500
+Connection ~ 10600 5500
 Wire Wire Line
-	14050 5550 14050 5450
+	10600 5500 10600 5400
 $Comp
 L power:+1V1 #PWR0137
 U 1 1 63C3387D
-P 13650 9800
-F 0 "#PWR0137" H 13650 9650 50  0001 C CNN
-F 1 "+1V1" H 13665 9973 50  0000 C CNN
-F 2 "" H 13650 9800 50  0001 C CNN
-F 3 "" H 13650 9800 50  0001 C CNN
-	1    13650 9800
+P 10200 9750
+F 0 "#PWR0137" H 10200 9600 50  0001 C CNN
+F 1 "+1V1" H 10215 9923 50  0000 C CNN
+F 2 "" H 10200 9750 50  0001 C CNN
+F 3 "" H 10200 9750 50  0001 C CNN
+	1    10200 9750
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	13550 9150 13550 9600
+	10100 9100 10100 9550
 Wire Wire Line
-	13550 9600 12050 9600
-Connection ~ 12050 7950
+	10100 9550 8600 9550
+Connection ~ 8600 7900
 Wire Wire Line
-	13650 9150 13650 9800
+	10200 9100 10200 9750
 Wire Wire Line
-	14150 6150 14150 5700
-Connection ~ 14150 5700
+	10700 6100 10700 5650
+Connection ~ 10700 5650
 Wire Wire Line
-	14150 5700 13750 5700
+	10700 5650 10300 5650
 $Comp
 L power:GND #PWR0138
 U 1 1 63C3388A
-P 13250 9800
-F 0 "#PWR0138" H 13250 9550 50  0001 C CNN
-F 1 "GND" H 13255 9627 50  0000 C CNN
-F 2 "" H 13250 9800 50  0001 C CNN
-F 3 "" H 13250 9800 50  0001 C CNN
-	1    13250 9800
+P 9800 9750
+F 0 "#PWR0138" H 9800 9500 50  0001 C CNN
+F 1 "GND" H 9805 9577 50  0000 C CNN
+F 2 "" H 9800 9750 50  0001 C CNN
+F 3 "" H 9800 9750 50  0001 C CNN
+	1    9800 9750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13250 9150 13250 9800
+	9800 9100 9800 9750
 $Comp
 L power:GND #PWR0139
 U 1 1 63C33891
-P 12550 6200
-F 0 "#PWR0139" H 12550 5950 50  0001 C CNN
-F 1 "GND" H 12555 6027 50  0000 C CNN
-F 2 "" H 12550 6200 50  0001 C CNN
-F 3 "" H 12550 6200 50  0001 C CNN
-	1    12550 6200
+P 9100 6150
+F 0 "#PWR0139" H 9100 5900 50  0001 C CNN
+F 1 "GND" H 9105 5977 50  0000 C CNN
+F 2 "" H 9100 6150 50  0001 C CNN
+F 3 "" H 9100 6150 50  0001 C CNN
+	1    9100 6150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12850 6150 12550 6150
+	9400 6100 9100 6100
 Wire Wire Line
-	12550 6150 12550 6200
+	9100 6100 9100 6150
 Wire Wire Line
-	13950 5950 13950 6150
+	10500 5900 10500 6100
 Wire Wire Line
-	15000 5850 14750 5850
+	11550 5800 11300 5800
 Wire Wire Line
-	14800 5950 13950 5950
+	11350 5900 10500 5900
 Wire Wire Line
-	14550 5850 13850 5850
+	11100 5800 10400 5800
 Wire Wire Line
-	13850 5850 13850 6150
+	10400 5800 10400 6100
 $Comp
 L W25Q128JVSIM:W25Q128JVSIM IC4
 U 1 1 63C338A8
@@ -2723,50 +2723,50 @@ F 3 "" H 13100 4100 50  0001 C CNN
 	1    13100 4100
 	1    0    0    -1  
 $EndComp
-Text GLabel 13350 9150 3    50   Input ~ 0
+Text GLabel 9900 9100 3    50   Input ~ 0
 RXIN
-Text GLabel 13450 9150 3    50   Input ~ 0
+Text GLabel 10000 9100 3    50   Input ~ 0
 RXOUT
-Text GLabel 17650 5550 2    50   Input ~ 0
+Text GLabel 14200 5500 2    50   Input ~ 0
 RXIN
-Text GLabel 17650 5900 2    50   Input ~ 0
+Text GLabel 14200 5850 2    50   Input ~ 0
 RXOUT
 $Comp
 L Device:R_Small R16
 U 1 1 63C338DD
-P 17450 5900
-F 0 "R16" H 17509 5946 50  0000 L CNN
-F 1 "1k" H 17509 5855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 17450 5900 50  0001 C CNN
-F 3 "~" H 17450 5900 50  0001 C CNN
-	1    17450 5900
+P 14000 5850
+F 0 "R16" H 14059 5896 50  0000 L CNN
+F 1 "1k" H 14059 5805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 14000 5850 50  0001 C CNN
+F 3 "~" H 14000 5850 50  0001 C CNN
+	1    14000 5850
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:Crystal Y2
 U 1 1 63C338E3
-P 16950 5700
-F 0 "Y2" V 16996 5569 50  0000 R CNN
-F 1 "ABLS-12.000MHZ-B4-T" V 17200 5900 50  0000 R CNN
-F 2 "ABLS-12.000MHZ-B4-T:HC%2f49US-(AT49)_1" H 16950 5700 50  0001 C CNN
-F 3 "~" H 16950 5700 50  0001 C CNN
-	1    16950 5700
+P 13500 5650
+F 0 "Y2" V 13546 5519 50  0000 R CNN
+F 1 "ABLS-12.000MHZ-B4-T" V 13750 5850 50  0000 R CNN
+F 2 "ABLS-12.000MHZ-B4-T:HC%2f49US-(AT49)_1" H 13500 5650 50  0001 C CNN
+F 3 "~" H 13500 5650 50  0001 C CNN
+	1    13500 5650
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	16700 5550 16950 5550
-Connection ~ 16950 5550
+	13250 5500 13500 5500
+Connection ~ 13500 5500
 Wire Wire Line
-	16950 5550 17650 5550
+	13500 5500 14200 5500
 Wire Wire Line
-	16700 5900 16950 5900
+	13250 5850 13500 5850
 Wire Wire Line
-	17550 5900 17650 5900
+	14100 5850 14200 5850
 Wire Wire Line
-	16950 5850 16950 5900
-Connection ~ 16950 5900
+	13500 5800 13500 5850
+Connection ~ 13500 5850
 Wire Wire Line
-	16950 5900 17350 5900
+	13500 5850 13900 5850
 $Comp
 L power:GND #PWR0144
 U 1 1 63C33949
@@ -2869,23 +2869,23 @@ Text GLabel 15300 4000 2    50   Input ~ 0
 RQSPI_SCLK
 Text GLabel 15300 4100 2    50   Input ~ 0
 RQSPI_SD0
-Text GLabel 13050 6150 1    50   Input ~ 0
+Text GLabel 9600 6100 1    50   Input ~ 0
 RQSPI_SD1
-Text GLabel 13150 6150 1    50   Input ~ 0
+Text GLabel 9700 6100 1    50   Input ~ 0
 RQSPI_SD2
-Text GLabel 13250 6150 1    50   Input ~ 0
+Text GLabel 9800 6100 1    50   Input ~ 0
 RQSPI_SD0
-Text GLabel 13350 6150 1    50   Input ~ 0
+Text GLabel 9900 6100 1    50   Input ~ 0
 RQSPI_SCLK
-Text GLabel 13450 6150 1    50   Input ~ 0
+Text GLabel 10000 6100 1    50   Input ~ 0
 RQSPI_SD3
 Wire Wire Line
-	12050 5700 12050 6500
+	8600 5650 8600 6450
 Wire Wire Line
-	12550 7050 12550 6500
+	9100 7000 9100 6450
 Wire Wire Line
-	12550 6500 12050 6500
-Connection ~ 12050 6500
+	9100 6450 8600 6450
+Connection ~ 8600 6450
 Wire Wire Line
 	1750 5750 1750 6600
 Wire Wire Line
@@ -2973,9 +2973,9 @@ F 3 "~" H 5600 12700 50  0001 C CNN
 $EndComp
 Text GLabel 5050 8100 3    50   Input ~ 0
 L-TIP
-Text GLabel 15100 8050 1    50   Input ~ 0
+Text GLabel 11650 8000 1    50   Input ~ 0
 R-TIP
-Text GLabel 16250 7950 2    50   Input ~ 0
+Text GLabel 12800 7900 2    50   Input ~ 0
 R-RING1
 $Comp
 L Connector:Conn_01x04_Female J47
@@ -3135,12 +3135,12 @@ $EndComp
 $Comp
 L power:+5V #PWR0148
 U 1 1 63FA1289
-P 16150 7950
-F 0 "#PWR0148" H 16150 7800 50  0001 C CNN
-F 1 "+5V" H 16165 8123 50  0000 C CNN
-F 2 "" H 16150 7950 50  0001 C CNN
-F 3 "" H 16150 7950 50  0001 C CNN
-	1    16150 7950
+P 12700 7900
+F 0 "#PWR0148" H 12700 7750 50  0001 C CNN
+F 1 "+5V" H 12715 8073 50  0000 C CNN
+F 2 "" H 12700 7900 50  0001 C CNN
+F 3 "" H 12700 7900 50  0001 C CNN
+	1    12700 7900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3157,23 +3157,23 @@ $EndComp
 $Comp
 L Device:R R5
 U 1 1 63C447F1
-P 15000 8200
-F 0 "R5" H 15070 8246 50  0000 L CNN
-F 1 "5.1K" H 15070 8155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 14930 8200 50  0001 C CNN
-F 3 "~" H 15000 8200 50  0001 C CNN
-	1    15000 8200
+P 11550 8150
+F 0 "R5" H 11620 8196 50  0000 L CNN
+F 1 "5.1K" H 11620 8105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 11480 8150 50  0001 C CNN
+F 3 "~" H 11550 8150 50  0001 C CNN
+	1    11550 8150
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR0151
 U 1 1 63C447F7
-P 15000 8350
-F 0 "#PWR0151" H 15000 8200 50  0001 C CNN
-F 1 "+3.3V" H 15015 8523 50  0000 C CNN
-F 2 "" H 15000 8350 50  0001 C CNN
-F 3 "" H 15000 8350 50  0001 C CNN
-	1    15000 8350
+P 11550 8300
+F 0 "#PWR0151" H 11550 8150 50  0001 C CNN
+F 1 "+3.3V" H 11565 8473 50  0000 C CNN
+F 2 "" H 11550 8300 50  0001 C CNN
+F 3 "" H 11550 8300 50  0001 C CNN
+	1    11550 8300
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -3194,67 +3194,67 @@ Wire Wire Line
 	17900 2450 18500 2450
 Wire Wire Line
 	17900 2150 18500 2150
-Text GLabel 14550 7150 2    50   Input ~ 0
+Text GLabel 11100 7100 2    50   Input ~ 0
 K_K
-Text GLabel 14550 7250 2    50   Input ~ 0
+Text GLabel 11100 7200 2    50   Input ~ 0
 K_L
-Text GLabel 14550 7350 2    50   Input ~ 0
+Text GLabel 11100 7300 2    50   Input ~ 0
 K_SEMICOL
-Text GLabel 14550 7450 2    50   Input ~ 0
+Text GLabel 11100 7400 2    50   Input ~ 0
 K_ENT
-Text GLabel 14550 7550 2    50   Input ~ 0
+Text GLabel 11100 7500 2    50   Input ~ 0
 K_RSFT
-Text GLabel 14550 7650 2    50   Input ~ 0
+Text GLabel 11100 7600 2    50   Input ~ 0
 K_LWR
-Text GLabel 14550 8150 2    50   Input ~ 0
+Text GLabel 11100 8100 2    50   Input ~ 0
 K_MNU
-Text GLabel 14550 8250 2    50   Input ~ 0
+Text GLabel 11100 8200 2    50   Input ~ 0
 K_RALT
 Wire Wire Line
-	12050 9600 12050 7950
+	8600 9550 8600 7900
 Wire Wire Line
-	12050 6500 12050 7950
+	8600 6450 8600 7900
 $Comp
 L RP2040:RP2040 IC3
 U 1 1 63C3395F
-P 12550 7050
-F 0 "IC3" H 14594 6496 50  0000 L CNN
-F 1 "RP2040" H 13400 6400 50  0000 L CNN
-F 2 "RP2040_minimal:RP2040-QFN-56" H 14400 7750 50  0001 L CNN
-F 3 "https://datasheets.raspberrypi.org/rp2040/rp2040-datasheet.pdf" H 14400 7650 50  0001 L CNN
-F 4 "Microcontroller in QFN Package" H 14400 7550 50  0001 L CNN "Description"
-F 5 "0.9" H 14400 7450 50  0001 L CNN "Height"
-F 6 "RASPBERRY-PI" H 14400 7350 50  0001 L CNN "Manufacturer_Name"
-F 7 "RP2040" H 14400 7250 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "" H 14400 7150 50  0001 L CNN "Mouser Part Number"
-F 9 "" H 14400 7050 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 14400 6950 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 14400 6850 50  0001 L CNN "Arrow Price/Stock"
-F 12 "" H 14400 6750 50  0001 L CNN "Mouser Testing Part Number"
-F 13 "" H 14400 6650 50  0001 L CNN "Mouser Testing Price/Stock"
-	1    12550 7050
+P 9100 7000
+F 0 "IC3" H 11144 6446 50  0000 L CNN
+F 1 "RP2040" H 9950 6350 50  0000 L CNN
+F 2 "RP2040_minimal:RP2040-QFN-56" H 10950 7700 50  0001 L CNN
+F 3 "https://datasheets.raspberrypi.org/rp2040/rp2040-datasheet.pdf" H 10950 7600 50  0001 L CNN
+F 4 "Microcontroller in QFN Package" H 10950 7500 50  0001 L CNN "Description"
+F 5 "0.9" H 10950 7400 50  0001 L CNN "Height"
+F 6 "RASPBERRY-PI" H 10950 7300 50  0001 L CNN "Manufacturer_Name"
+F 7 "RP2040" H 10950 7200 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 10950 7100 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 10950 7000 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 10950 6900 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 10950 6800 50  0001 L CNN "Arrow Price/Stock"
+F 12 "" H 10950 6700 50  0001 L CNN "Mouser Testing Part Number"
+F 13 "" H 10950 6600 50  0001 L CNN "Mouser Testing Price/Stock"
+	1    9100 7000
 	1    0    0    -1  
 $EndComp
-Connection ~ 15000 8050
-Text GLabel 14550 7850 2    50   Input ~ 0
+Connection ~ 11550 8000
+Text GLabel 11100 7800 2    50   Input ~ 0
 K_BSPC
-Text GLabel 12550 7150 0    50   Input ~ 0
+Text GLabel 9100 7100 0    50   Input ~ 0
 K_P
-Text GLabel 12550 7250 0    50   Input ~ 0
+Text GLabel 9100 7200 0    50   Input ~ 0
 K_O
-Text GLabel 12550 7350 0    50   Input ~ 0
+Text GLabel 9100 7300 0    50   Input ~ 0
 K_I
-Text GLabel 12550 7550 0    50   Input ~ 0
+Text GLabel 9100 7500 0    50   Input ~ 0
 K_H
-Text GLabel 12550 7450 0    50   Input ~ 0
+Text GLabel 9100 7400 0    50   Input ~ 0
 K_Y
-Text GLabel 12550 7650 0    50   Input ~ 0
+Text GLabel 9100 7600 0    50   Input ~ 0
 K_N
-Text GLabel 12550 7850 0    50   Input ~ 0
+Text GLabel 9100 7800 0    50   Input ~ 0
 K_M
-Text GLabel 12550 8050 0    50   Input ~ 0
+Text GLabel 9100 8000 0    50   Input ~ 0
 K_J
-Text GLabel 12550 7750 0    50   Input ~ 0
+Text GLabel 9100 7700 0    50   Input ~ 0
 K_U
 Text GLabel 4250 7200 2    50   Input ~ 0
 K_LSFT
@@ -3302,17 +3302,17 @@ Connection ~ 2800 3300
 Text GLabel 2800 3850 0    50   Input ~ 0
 QSPI_SSN
 Connection ~ 13100 3250
-Text GLabel 12950 6150 1    50   Input ~ 0
+Text GLabel 9500 6100 1    50   Input ~ 0
 RQSPI_SSN
 Text GLabel 13100 3800 0    50   Input ~ 0
 RQSPI_SSN
-Text GLabel 12850 9150 3    50   Input ~ 0
+Text GLabel 9400 9100 3    50   Input ~ 0
 K_RCTL
-Text GLabel 12950 9150 3    50   Input ~ 0
+Text GLabel 9500 9100 3    50   Input ~ 0
 K_SLASH
-Text GLabel 13050 9150 3    50   Input ~ 0
+Text GLabel 9600 9100 3    50   Input ~ 0
 K_DOT
-Text GLabel 13150 9150 3    50   Input ~ 0
+Text GLabel 9700 9100 3    50   Input ~ 0
 K_COMM
 Text GLabel 2250 7800 0    50   Input ~ 0
 K_LCTL
@@ -3704,19 +3704,19 @@ Text GLabel 12250 12150 0    50   Input ~ 0
 K_0
 Text GLabel 12250 12050 0    50   Input ~ 0
 K_DEL
-Text GLabel 12550 8150 0    50   Input ~ 0
+Text GLabel 9100 8100 0    50   Input ~ 0
 K_6
-Text GLabel 12550 8250 0    50   Input ~ 0
+Text GLabel 9100 8200 0    50   Input ~ 0
 K_DEL
-Text GLabel 12550 8350 0    50   Input ~ 0
+Text GLabel 9100 8300 0    50   Input ~ 0
 K_0
 Wire Wire Line
-	13950 9150 13950 9650
-Text GLabel 14050 9150 3    50   Input ~ 0
+	10500 9100 10500 9600
+Text GLabel 10600 9100 3    50   Input ~ 0
 K_9
-Text GLabel 14150 9150 3    50   Input ~ 0
+Text GLabel 10700 9100 3    50   Input ~ 0
 K_8
-Text GLabel 14550 7750 2    50   Input ~ 0
+Text GLabel 11100 7700 2    50   Input ~ 0
 K_7
 Wire Wire Line
 	19050 13350 19150 13350
@@ -3905,35 +3905,35 @@ Wire Wire Line
 $Comp
 L BUTT-4:BUTT-4 RUN2
 U 1 1 64A72F18
-P 13950 9650
-F 0 "RUN2" H 14400 9915 50  0000 C CNN
-F 1 "BUTT-4" H 14400 9824 50  0000 C CNN
-F 2 "KiCad:BUTT4" H 14700 9750 50  0001 L CNN
-F 3 "http://site.gravitech.us/Components/BUTT-4/BUTT-4_datasheet.pdf" H 14700 9650 50  0001 L CNN
-F 4 "Tactile Switches MINI PUSH BUTTON SWITCH 4-PIN QTY. 4" H 14700 9550 50  0001 L CNN "Description"
-F 5 "9.5" H 14700 9450 50  0001 L CNN "Height"
-F 6 "Gravitech" H 14700 9350 50  0001 L CNN "Manufacturer_Name"
-F 7 "BUTT-4" H 14700 9250 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "992-BUTT-4" H 14700 9150 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Gravitech/BUTT-4?qs=Vxac6xGyzPm51iLpy8GNew%3D%3D" H 14700 9050 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 14700 8950 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 14700 8850 50  0001 L CNN "Arrow Price/Stock"
-	1    13950 9650
+P 10500 9600
+F 0 "RUN2" H 10950 9865 50  0000 C CNN
+F 1 "BUTT-4" H 10950 9774 50  0000 C CNN
+F 2 "KiCad:BUTT4" H 11250 9700 50  0001 L CNN
+F 3 "http://site.gravitech.us/Components/BUTT-4/BUTT-4_datasheet.pdf" H 11250 9600 50  0001 L CNN
+F 4 "Tactile Switches MINI PUSH BUTTON SWITCH 4-PIN QTY. 4" H 11250 9500 50  0001 L CNN "Description"
+F 5 "9.5" H 11250 9400 50  0001 L CNN "Height"
+F 6 "Gravitech" H 11250 9300 50  0001 L CNN "Manufacturer_Name"
+F 7 "BUTT-4" H 11250 9200 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "992-BUTT-4" H 11250 9100 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Gravitech/BUTT-4?qs=Vxac6xGyzPm51iLpy8GNew%3D%3D" H 11250 9000 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 11250 8900 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 11250 8800 50  0001 L CNN "Arrow Price/Stock"
+	1    10500 9600
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0117
 U 1 1 64A76142
-P 13850 10050
-F 0 "#PWR0117" H 13850 9800 50  0001 C CNN
-F 1 "GND" H 13855 9877 50  0000 C CNN
-F 2 "" H 13850 10050 50  0001 C CNN
-F 3 "" H 13850 10050 50  0001 C CNN
-	1    13850 10050
+P 10400 10000
+F 0 "#PWR0117" H 10400 9750 50  0001 C CNN
+F 1 "GND" H 10405 9827 50  0000 C CNN
+F 2 "" H 10400 10000 50  0001 C CNN
+F 3 "" H 10400 10000 50  0001 C CNN
+	1    10400 10000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13950 9750 13850 9750
+	10500 9700 10400 9700
 $Comp
 L BUTT-4:BUTT-4 RUN1
 U 1 1 64B6778E
@@ -4030,24 +4030,24 @@ Wire Wire Line
 	11500 3700 11600 3700
 Connection ~ 11600 3700
 Wire Wire Line
-	13950 9850 13800 9850
+	10500 9800 10350 9800
 Wire Wire Line
-	13800 9850 13800 9650
+	10350 9800 10350 9600
 Wire Wire Line
-	13800 9650 13950 9650
-Connection ~ 13950 9650
+	10350 9600 10500 9600
+Connection ~ 10500 9600
 Wire Wire Line
-	13850 9750 13850 10000
+	10400 9700 10400 9950
 Wire Wire Line
-	14850 9650 14850 9750
+	11400 9600 11400 9700
 Wire Wire Line
-	14850 10000 13850 10000
-Connection ~ 14850 9750
+	11400 9950 10400 9950
+Connection ~ 11400 9700
 Wire Wire Line
-	14850 9750 14850 10000
-Connection ~ 13850 10000
+	11400 9700 11400 9950
+Connection ~ 10400 9950
 Wire Wire Line
-	13850 10000 13850 10050
+	10400 9950 10400 10000
 Wire Wire Line
 	5150 1250 5250 1250
 Connection ~ 5250 1250
@@ -4162,7 +4162,7 @@ Text GLabel 4250 8400 2    50   Input ~ 0
 K_THL
 Text Notes 4250 15650 0    50   ~ 0
 This key is linke only to suppress the error on the overlapping pads.\nThe pin is not used\n
-Text GLabel 14550 8350 2    50   Input ~ 0
+Text GLabel 11100 8300 2    50   Input ~ 0
 K_THR
 $Comp
 L power:+5V #PWR0147
@@ -4203,15 +4203,15 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0152
 U 1 1 64226D4D
-P 16150 8050
-F 0 "#PWR0152" H 16150 7800 50  0001 C CNN
-F 1 "GND" H 16155 7877 50  0000 C CNN
-F 2 "" H 16150 8050 50  0001 C CNN
-F 3 "" H 16150 8050 50  0001 C CNN
-	1    16150 8050
+P 12700 8000
+F 0 "#PWR0152" H 12700 7750 50  0001 C CNN
+F 1 "GND" H 12705 7827 50  0000 C CNN
+F 2 "" H 12700 8000 50  0001 C CNN
+F 3 "" H 12700 8000 50  0001 C CNN
+	1    12700 8000
 	1    0    0    -1  
 $EndComp
-Text GLabel 16250 8050 2    50   Input ~ 0
+Text GLabel 12800 8000 2    50   Input ~ 0
 R-BASE
 $Comp
 L STX-3501-3N:STX-3501-3N J36
@@ -4235,38 +4235,38 @@ F 13 "" H 6650 7100 50  0001 L CNN "Mouser Testing Price/Stock"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	15000 8050 15350 8050
+	11550 8000 11900 8000
 Wire Wire Line
-	14550 8050 15000 8050
+	11100 8000 11550 8000
 Wire Wire Line
-	14550 7950 15500 7950
+	11100 7900 12050 7900
 $Comp
 L STX-3501-3N:STX-3501-3N J46
 U 1 1 63F7C0D7
-P 16150 8050
-F 0 "J46" V 16504 8178 50  0000 L CNN
-F 1 "PJ-3200B" V 16595 8178 50  0000 L CNN
-F 2 "random-keyboard-parts:PJ-3200B-4A" H 16800 8150 50  0001 L CNN
-F 3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ae9d1df0991347f2f81145ba35ca04dc.pdf" H 16800 8050 50  0001 L CNN
-F 4 "Phone Connectors 3.5mm S LUGS STEREO 3P THRU HOLE" H 16800 7950 50  0001 L CNN "Description"
-F 5 "5" H 16800 7850 50  0001 L CNN "Height"
-F 6 "Kycon" H 16800 7750 50  0001 L CNN "Manufacturer_Name"
-F 7 "STX-3501-3N" H 16800 7650 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "806-STX-3501-3N" H 16800 7550 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Kycon/STX-3501-3N?qs=BBNwCsfFaznpJt4o1Jp%2FTg%3D%3D" H 16800 7450 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 16800 7350 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 16800 7250 50  0001 L CNN "Arrow Price/Stock"
-F 12 "" H 16800 7150 50  0001 L CNN "Mouser Testing Part Number"
-F 13 "" H 16800 7050 50  0001 L CNN "Mouser Testing Price/Stock"
-	1    16150 8050
+P 12700 8000
+F 0 "J46" V 13054 8128 50  0000 L CNN
+F 1 "PJ-3200B" V 13145 8128 50  0000 L CNN
+F 2 "random-keyboard-parts:PJ-3200B-4A" H 13350 8100 50  0001 L CNN
+F 3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ae9d1df0991347f2f81145ba35ca04dc.pdf" H 13350 8000 50  0001 L CNN
+F 4 "Phone Connectors 3.5mm S LUGS STEREO 3P THRU HOLE" H 13350 7900 50  0001 L CNN "Description"
+F 5 "5" H 13350 7800 50  0001 L CNN "Height"
+F 6 "Kycon" H 13350 7700 50  0001 L CNN "Manufacturer_Name"
+F 7 "STX-3501-3N" H 13350 7600 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "806-STX-3501-3N" H 13350 7500 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Kycon/STX-3501-3N?qs=BBNwCsfFaznpJt4o1Jp%2FTg%3D%3D" H 13350 7400 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 13350 7300 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 13350 7200 50  0001 L CNN "Arrow Price/Stock"
+F 12 "" H 13350 7100 50  0001 L CNN "Mouser Testing Part Number"
+F 13 "" H 13350 7000 50  0001 L CNN "Mouser Testing Price/Stock"
+	1    12700 8000
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	16150 8050 16250 8050
-Connection ~ 16150 8050
+	12700 8000 12800 8000
+Connection ~ 12700 8000
 Wire Wire Line
-	16150 7950 16250 7950
-Connection ~ 16150 7950
+	12700 7900 12800 7900
+Connection ~ 12700 7900
 Connection ~ 6000 8000
 Connection ~ 6000 8100
 Text GLabel 7950 12100 0    50   Input ~ 0
@@ -4341,10 +4341,10 @@ Connection ~ 20450 10400
 Wire Wire Line
 	20450 10400 20550 10400
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0162
 U 1 1 651A673D
 P 20250 10400
-F 0 "#PWR?" H 20250 10150 50  0001 C CNN
+F 0 "#PWR0162" H 20250 10150 50  0001 C CNN
 F 1 "GND" H 20255 10227 50  0000 C CNN
 F 2 "" H 20250 10400 50  0001 C CNN
 F 3 "" H 20250 10400 50  0001 C CNN
@@ -4352,4 +4352,481 @@ F 3 "" H 20250 10400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 20250 10400
+$Comp
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX?
+U 1 1 653687D1
+P 17700 4950
+F 0 "MX?" H 17733 5173 60  0000 C CNN
+F 1 "SwLSHFT" H 17733 5099 20  0000 C CNN
+F 2 "keyswitches:MX-GLP2-HotSwap" H 17075 4925 60  0001 C CNN
+F 3 "" H 17075 4925 60  0001 C CNN
+	1    17700 4950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX?
+U 1 1 653687D7
+P 19600 5050
+F 0 "MX?" H 19633 5273 60  0000 C CNN
+F 1 "SwRMOD" H 19633 5199 20  0000 C CNN
+F 2 "keyswitches:MX-GLP2-HotSwap" H 18975 5025 60  0001 C CNN
+F 3 "" H 18975 5025 60  0001 C CNN
+	1    19600 5050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX?
+U 1 1 653687DD
+P 20050 5050
+F 0 "MX?" H 20083 5273 60  0000 C CNN
+F 1 "SwRSHFT" H 20083 5199 20  0000 C CNN
+F 2 "keyswitches:MX-GLP2-HotSwap" H 19425 5025 60  0001 C CNN
+F 3 "" H 19425 5025 60  0001 C CNN
+	1    20050 5050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 653687E3
+P 19750 4300
+F 0 "J?" V 19812 4444 50  0000 L CNN
+F 1 "Conn_01x04_Male" V 19950 3400 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 19750 4300 50  0001 C CNN
+F 3 "~" H 19750 4300 50  0001 C CNN
+	1    19750 4300
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	17750 5100 17850 5100
+Wire Wire Line
+	17850 5100 17850 4350
+Wire Wire Line
+	19650 5200 19750 5200
+Wire Wire Line
+	19750 5200 19750 4500
+Wire Wire Line
+	19900 5000 19850 5000
+Wire Wire Line
+	20100 5200 20200 5200
+Wire Wire Line
+	17750 4350 17750 4500
+Wire Wire Line
+	17750 4500 17550 4500
+Wire Wire Line
+	17550 4500 17550 4900
+Wire Wire Line
+	19450 5000 19450 4600
+Wire Wire Line
+	19850 4600 19850 5000
+Wire Wire Line
+	19450 4600 19850 4600
+Wire Wire Line
+	19950 4500 19950 4600
+Wire Wire Line
+	19950 4600 19850 4600
+Connection ~ 19850 4600
+Wire Wire Line
+	20200 4500 20200 5200
+Wire Wire Line
+	19850 4500 19950 4500
+Wire Wire Line
+	18050 4350 18400 4350
+$Comp
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX?
+U 1 1 653687FB
+P 19300 5050
+F 0 "MX?" H 19333 5273 60  0000 C CNN
+F 1 "SwThR" H 19333 5199 20  0000 C CNN
+F 2 "keyswitches:MX-GLP2-HotSwap" H 18675 5025 60  0001 C CNN
+F 3 "" H 18675 5025 60  0001 C CNN
+	1    19300 5050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX?
+U 1 1 65368801
+P 18700 4900
+F 0 "MX?" H 18733 5123 60  0000 C CNN
+F 1 "SwThL" H 18733 5049 20  0000 C CNN
+F 2 "keyswitches:MX-GLP2-HotSwap" H 18075 4875 60  0001 C CNN
+F 3 "" H 18075 4875 60  0001 C CNN
+	1    18700 4900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	18400 5100 18400 4350
+$Comp
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX?
+U 1 1 65368808
+P 18250 4950
+F 0 "MX?" H 18283 5173 60  0000 C CNN
+F 1 "SwLMOD" H 18283 5099 20  0000 C CNN
+F 2 "keyswitches:MX-GLP2-HotSwap" H 17625 4925 60  0001 C CNN
+F 3 "" H 17625 4925 60  0001 C CNN
+	1    18250 4950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	18550 4850 18550 4500
+Wire Wire Line
+	18300 5100 18400 5100
+Wire Wire Line
+	18100 4900 18100 4500
+Wire Wire Line
+	18100 4500 18550 4500
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 65368812
+P 17850 4150
+F 0 "J?" V 17912 4294 50  0000 L CNN
+F 1 "Conn_01x04_Male" V 18003 4294 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 17850 4150 50  0001 C CNN
+F 3 "~" H 17850 4150 50  0001 C CNN
+	1    17850 4150
+	0    -1   1    0   
+$EndComp
+Connection ~ 18100 4500
+Connection ~ 17750 4500
+Wire Wire Line
+	17750 4500 18100 4500
+Wire Wire Line
+	17950 4350 17950 5250
+Wire Wire Line
+	17950 5250 18750 5250
+Wire Wire Line
+	18750 5250 18750 5050
+Wire Wire Line
+	19150 5000 19150 4600
+Wire Wire Line
+	19150 4600 19450 4600
+Connection ~ 19450 4600
+Wire Wire Line
+	19350 5200 19000 5200
+Wire Wire Line
+	19000 5200 19000 4500
+Wire Wire Line
+	19000 4500 19650 4500
+Connection ~ 19950 4500
+Wire Wire Line
+	19950 4500 20200 4500
+$Comp
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX?
+U 1 1 6542CCF8
+P 17650 6350
+F 0 "MX?" H 17683 6573 60  0000 C CNN
+F 1 "SwLSHFT" H 17683 6499 20  0000 C CNN
+F 2 "keyswitches:MX-GLP2-HotSwap" H 17025 6325 60  0001 C CNN
+F 3 "" H 17025 6325 60  0001 C CNN
+	1    17650 6350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX?
+U 1 1 6542CCFE
+P 19550 6450
+F 0 "MX?" H 19583 6673 60  0000 C CNN
+F 1 "SwRMOD" H 19583 6599 20  0000 C CNN
+F 2 "keyswitches:MX-GLP2-HotSwap" H 18925 6425 60  0001 C CNN
+F 3 "" H 18925 6425 60  0001 C CNN
+	1    19550 6450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX?
+U 1 1 6542CD04
+P 20000 6450
+F 0 "MX?" H 20033 6673 60  0000 C CNN
+F 1 "SwRSHFT" H 20033 6599 20  0000 C CNN
+F 2 "keyswitches:MX-GLP2-HotSwap" H 19375 6425 60  0001 C CNN
+F 3 "" H 19375 6425 60  0001 C CNN
+	1    20000 6450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 6542CD0A
+P 19700 5700
+F 0 "J?" V 19762 5844 50  0000 L CNN
+F 1 "Conn_01x04_Male" V 19900 4800 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 19700 5700 50  0001 C CNN
+F 3 "~" H 19700 5700 50  0001 C CNN
+	1    19700 5700
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	17700 6500 17800 6500
+Wire Wire Line
+	17800 6500 17800 5750
+Wire Wire Line
+	19600 6600 19700 6600
+Wire Wire Line
+	19700 6600 19700 5900
+Wire Wire Line
+	19850 6400 19800 6400
+Wire Wire Line
+	20050 6600 20150 6600
+Wire Wire Line
+	17700 5750 17700 5900
+Wire Wire Line
+	17700 5900 17500 5900
+Wire Wire Line
+	17500 5900 17500 6300
+Wire Wire Line
+	19400 6400 19400 6000
+Wire Wire Line
+	19800 6000 19800 6400
+Wire Wire Line
+	19400 6000 19800 6000
+Wire Wire Line
+	19900 5900 19900 6000
+Wire Wire Line
+	19900 6000 19800 6000
+Connection ~ 19800 6000
+Wire Wire Line
+	20150 5900 20150 6600
+Wire Wire Line
+	19800 5900 19900 5900
+Wire Wire Line
+	18000 5750 18350 5750
+$Comp
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX?
+U 1 1 6542CD22
+P 19250 6450
+F 0 "MX?" H 19283 6673 60  0000 C CNN
+F 1 "SwThR" H 19283 6599 20  0000 C CNN
+F 2 "keyswitches:MX-GLP2-HotSwap" H 18625 6425 60  0001 C CNN
+F 3 "" H 18625 6425 60  0001 C CNN
+	1    19250 6450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX?
+U 1 1 6542CD28
+P 18650 6300
+F 0 "MX?" H 18683 6523 60  0000 C CNN
+F 1 "SwThL" H 18683 6449 20  0000 C CNN
+F 2 "keyswitches:MX-GLP2-HotSwap" H 18025 6275 60  0001 C CNN
+F 3 "" H 18025 6275 60  0001 C CNN
+	1    18650 6300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	18350 6500 18350 5750
+$Comp
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX?
+U 1 1 6542CD2F
+P 18200 6350
+F 0 "MX?" H 18233 6573 60  0000 C CNN
+F 1 "SwLMOD" H 18233 6499 20  0000 C CNN
+F 2 "keyswitches:MX-GLP2-HotSwap" H 17575 6325 60  0001 C CNN
+F 3 "" H 17575 6325 60  0001 C CNN
+	1    18200 6350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	18500 6250 18500 5900
+Wire Wire Line
+	18250 6500 18350 6500
+Wire Wire Line
+	18050 6300 18050 5900
+Wire Wire Line
+	18050 5900 18500 5900
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 6542CD39
+P 17800 5550
+F 0 "J?" V 17862 5694 50  0000 L CNN
+F 1 "Conn_01x04_Male" V 17953 5694 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 17800 5550 50  0001 C CNN
+F 3 "~" H 17800 5550 50  0001 C CNN
+	1    17800 5550
+	0    -1   1    0   
+$EndComp
+Connection ~ 18050 5900
+Connection ~ 17700 5900
+Wire Wire Line
+	17700 5900 18050 5900
+Wire Wire Line
+	17900 5750 17900 6650
+Wire Wire Line
+	17900 6650 18700 6650
+Wire Wire Line
+	18700 6650 18700 6450
+Wire Wire Line
+	19100 6400 19100 6000
+Wire Wire Line
+	19100 6000 19400 6000
+Connection ~ 19400 6000
+Wire Wire Line
+	19300 6600 18950 6600
+Wire Wire Line
+	18950 6600 18950 5900
+Wire Wire Line
+	18950 5900 19600 5900
+Connection ~ 19900 5900
+Wire Wire Line
+	19900 5900 20150 5900
+$Comp
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX?
+U 1 1 65485204
+P 17650 7700
+F 0 "MX?" H 17683 7923 60  0000 C CNN
+F 1 "SwLSHFT" H 17683 7849 20  0000 C CNN
+F 2 "keyswitches:MX-GLP2-HotSwap" H 17025 7675 60  0001 C CNN
+F 3 "" H 17025 7675 60  0001 C CNN
+	1    17650 7700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX?
+U 1 1 6548520A
+P 19550 7800
+F 0 "MX?" H 19583 8023 60  0000 C CNN
+F 1 "SwRMOD" H 19583 7949 20  0000 C CNN
+F 2 "keyswitches:MX-GLP2-HotSwap" H 18925 7775 60  0001 C CNN
+F 3 "" H 18925 7775 60  0001 C CNN
+	1    19550 7800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX?
+U 1 1 65485210
+P 20000 7800
+F 0 "MX?" H 20033 8023 60  0000 C CNN
+F 1 "SwRSHFT" H 20033 7949 20  0000 C CNN
+F 2 "keyswitches:MX-GLP2-HotSwap" H 19375 7775 60  0001 C CNN
+F 3 "" H 19375 7775 60  0001 C CNN
+	1    20000 7800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 65485216
+P 19700 7050
+F 0 "J?" V 19762 7194 50  0000 L CNN
+F 1 "Conn_01x04_Male" V 19900 6150 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 19700 7050 50  0001 C CNN
+F 3 "~" H 19700 7050 50  0001 C CNN
+	1    19700 7050
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	17700 7850 17800 7850
+Wire Wire Line
+	17800 7850 17800 7100
+Wire Wire Line
+	19600 7950 19700 7950
+Wire Wire Line
+	19700 7950 19700 7250
+Wire Wire Line
+	19850 7750 19800 7750
+Wire Wire Line
+	20050 7950 20150 7950
+Wire Wire Line
+	17700 7100 17700 7250
+Wire Wire Line
+	17700 7250 17500 7250
+Wire Wire Line
+	17500 7250 17500 7650
+Wire Wire Line
+	19400 7750 19400 7350
+Wire Wire Line
+	19800 7350 19800 7750
+Wire Wire Line
+	19400 7350 19800 7350
+Wire Wire Line
+	19900 7250 19900 7350
+Wire Wire Line
+	19900 7350 19800 7350
+Connection ~ 19800 7350
+Wire Wire Line
+	20150 7250 20150 7950
+Wire Wire Line
+	19800 7250 19900 7250
+Wire Wire Line
+	18000 7100 18350 7100
+$Comp
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX?
+U 1 1 6548522E
+P 19250 7800
+F 0 "MX?" H 19283 8023 60  0000 C CNN
+F 1 "SwThR" H 19283 7949 20  0000 C CNN
+F 2 "keyswitches:MX-GLP2-HotSwap" H 18625 7775 60  0001 C CNN
+F 3 "" H 18625 7775 60  0001 C CNN
+	1    19250 7800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX?
+U 1 1 65485234
+P 18650 7650
+F 0 "MX?" H 18683 7873 60  0000 C CNN
+F 1 "SwThL" H 18683 7799 20  0000 C CNN
+F 2 "keyswitches:MX-GLP2-HotSwap" H 18025 7625 60  0001 C CNN
+F 3 "" H 18025 7625 60  0001 C CNN
+	1    18650 7650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	18350 7850 18350 7100
+$Comp
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX?
+U 1 1 6548523B
+P 18200 7700
+F 0 "MX?" H 18233 7923 60  0000 C CNN
+F 1 "SwLMOD" H 18233 7849 20  0000 C CNN
+F 2 "keyswitches:MX-GLP2-HotSwap" H 17575 7675 60  0001 C CNN
+F 3 "" H 17575 7675 60  0001 C CNN
+	1    18200 7700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	18500 7600 18500 7250
+Wire Wire Line
+	18250 7850 18350 7850
+Wire Wire Line
+	18050 7650 18050 7250
+Wire Wire Line
+	18050 7250 18500 7250
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 65485245
+P 17800 6900
+F 0 "J?" V 17862 7044 50  0000 L CNN
+F 1 "Conn_01x04_Male" V 17953 7044 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 17800 6900 50  0001 C CNN
+F 3 "~" H 17800 6900 50  0001 C CNN
+	1    17800 6900
+	0    -1   1    0   
+$EndComp
+Connection ~ 18050 7250
+Connection ~ 17700 7250
+Wire Wire Line
+	17700 7250 18050 7250
+Wire Wire Line
+	17900 7100 17900 8000
+Wire Wire Line
+	17900 8000 18700 8000
+Wire Wire Line
+	18700 8000 18700 7800
+Wire Wire Line
+	19100 7750 19100 7350
+Wire Wire Line
+	19100 7350 19400 7350
+Connection ~ 19400 7350
+Wire Wire Line
+	19300 7950 18950 7950
+Wire Wire Line
+	18950 7950 18950 7250
+Wire Wire Line
+	18950 7250 19600 7250
+Connection ~ 19900 7250
+Wire Wire Line
+	19900 7250 20150 7250
+Text Notes 20750 4800 0    50   ~ 0
+=- Pattern
+Text Notes 20650 6200 0    50   ~ 0
+- - _ Extra key in the middle finger column
+Text Notes 20600 7700 0    50   ~ 0
+_-- Extra key over the inner edge
 $EndSCHEMATC
