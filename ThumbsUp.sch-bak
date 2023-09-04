@@ -4353,10 +4353,10 @@ F 3 "" H 20250 10400 50  0001 C CNN
 $EndComp
 Connection ~ 20250 10400
 $Comp
-L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX?
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX61
 U 1 1 653687D1
 P 17700 4950
-F 0 "MX?" H 17733 5173 60  0000 C CNN
+F 0 "MX61" H 17733 5173 60  0000 C CNN
 F 1 "SwLSHFT" H 17733 5099 20  0000 C CNN
 F 2 "keyswitches:MX-GLP2-HotSwap" H 17075 4925 60  0001 C CNN
 F 3 "" H 17075 4925 60  0001 C CNN
@@ -4364,10 +4364,10 @@ F 3 "" H 17075 4925 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX?
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX73
 U 1 1 653687D7
 P 19600 5050
-F 0 "MX?" H 19633 5273 60  0000 C CNN
+F 0 "MX73" H 19633 5273 60  0000 C CNN
 F 1 "SwRMOD" H 19633 5199 20  0000 C CNN
 F 2 "keyswitches:MX-GLP2-HotSwap" H 18975 5025 60  0001 C CNN
 F 3 "" H 18975 5025 60  0001 C CNN
@@ -4375,10 +4375,10 @@ F 3 "" H 18975 5025 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX?
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX76
 U 1 1 653687DD
 P 20050 5050
-F 0 "MX?" H 20083 5273 60  0000 C CNN
+F 0 "MX76" H 20083 5273 60  0000 C CNN
 F 1 "SwRSHFT" H 20083 5199 20  0000 C CNN
 F 2 "keyswitches:MX-GLP2-HotSwap" H 19425 5025 60  0001 C CNN
 F 3 "" H 19425 5025 60  0001 C CNN
@@ -4386,10 +4386,10 @@ F 3 "" H 19425 5025 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x04_Male J?
+L Connector:Conn_01x04_Male J58
 U 1 1 653687E3
 P 19750 4300
-F 0 "J?" V 19812 4444 50  0000 L CNN
+F 0 "J58" V 19812 4444 50  0000 L CNN
 F 1 "Conn_01x04_Male" V 19950 3400 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 19750 4300 50  0001 C CNN
 F 3 "~" H 19750 4300 50  0001 C CNN
@@ -4428,14 +4428,12 @@ Connection ~ 19850 4600
 Wire Wire Line
 	20200 4500 20200 5200
 Wire Wire Line
-	19850 4500 19950 4500
-Wire Wire Line
 	18050 4350 18400 4350
 $Comp
-L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX?
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX70
 U 1 1 653687FB
 P 19300 5050
-F 0 "MX?" H 19333 5273 60  0000 C CNN
+F 0 "MX70" H 19333 5273 60  0000 C CNN
 F 1 "SwThR" H 19333 5199 20  0000 C CNN
 F 2 "keyswitches:MX-GLP2-HotSwap" H 18675 5025 60  0001 C CNN
 F 3 "" H 18675 5025 60  0001 C CNN
@@ -4443,10 +4441,10 @@ F 3 "" H 18675 5025 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX?
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX67
 U 1 1 65368801
 P 18700 4900
-F 0 "MX?" H 18733 5123 60  0000 C CNN
+F 0 "MX67" H 18733 5123 60  0000 C CNN
 F 1 "SwThL" H 18733 5049 20  0000 C CNN
 F 2 "keyswitches:MX-GLP2-HotSwap" H 18075 4875 60  0001 C CNN
 F 3 "" H 18075 4875 60  0001 C CNN
@@ -4456,10 +4454,10 @@ $EndComp
 Wire Wire Line
 	18400 5100 18400 4350
 $Comp
-L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX?
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX64
 U 1 1 65368808
 P 18250 4950
-F 0 "MX?" H 18283 5173 60  0000 C CNN
+F 0 "MX64" H 18283 5173 60  0000 C CNN
 F 1 "SwLMOD" H 18283 5099 20  0000 C CNN
 F 2 "keyswitches:MX-GLP2-HotSwap" H 17625 4925 60  0001 C CNN
 F 3 "" H 17625 4925 60  0001 C CNN
@@ -4475,10 +4473,10 @@ Wire Wire Line
 Wire Wire Line
 	18100 4500 18550 4500
 $Comp
-L Connector:Conn_01x04_Male J?
+L Connector:Conn_01x04_Male J55
 U 1 1 65368812
 P 17850 4150
-F 0 "J?" V 17912 4294 50  0000 L CNN
+F 0 "J55" V 17912 4294 50  0000 L CNN
 F 1 "Conn_01x04_Male" V 18003 4294 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 17850 4150 50  0001 C CNN
 F 3 "~" H 17850 4150 50  0001 C CNN
@@ -4506,14 +4504,11 @@ Wire Wire Line
 	19000 5200 19000 4500
 Wire Wire Line
 	19000 4500 19650 4500
-Connection ~ 19950 4500
-Wire Wire Line
-	19950 4500 20200 4500
 $Comp
-L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX?
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX59
 U 1 1 6542CCF8
 P 17650 6350
-F 0 "MX?" H 17683 6573 60  0000 C CNN
+F 0 "MX59" H 17683 6573 60  0000 C CNN
 F 1 "SwLSHFT" H 17683 6499 20  0000 C CNN
 F 2 "keyswitches:MX-GLP2-HotSwap" H 17025 6325 60  0001 C CNN
 F 3 "" H 17025 6325 60  0001 C CNN
@@ -4521,10 +4516,10 @@ F 3 "" H 17025 6325 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX?
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX71
 U 1 1 6542CCFE
 P 19550 6450
-F 0 "MX?" H 19583 6673 60  0000 C CNN
+F 0 "MX71" H 19583 6673 60  0000 C CNN
 F 1 "SwRMOD" H 19583 6599 20  0000 C CNN
 F 2 "keyswitches:MX-GLP2-HotSwap" H 18925 6425 60  0001 C CNN
 F 3 "" H 18925 6425 60  0001 C CNN
@@ -4532,10 +4527,10 @@ F 3 "" H 18925 6425 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX?
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX74
 U 1 1 6542CD04
 P 20000 6450
-F 0 "MX?" H 20033 6673 60  0000 C CNN
+F 0 "MX74" H 20033 6673 60  0000 C CNN
 F 1 "SwRSHFT" H 20033 6599 20  0000 C CNN
 F 2 "keyswitches:MX-GLP2-HotSwap" H 19375 6425 60  0001 C CNN
 F 3 "" H 19375 6425 60  0001 C CNN
@@ -4543,10 +4538,10 @@ F 3 "" H 19375 6425 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x04_Male J?
+L Connector:Conn_01x04_Male J56
 U 1 1 6542CD0A
 P 19700 5700
-F 0 "J?" V 19762 5844 50  0000 L CNN
+F 0 "J56" V 19762 5844 50  0000 L CNN
 F 1 "Conn_01x04_Male" V 19900 4800 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 19700 5700 50  0001 C CNN
 F 3 "~" H 19700 5700 50  0001 C CNN
@@ -4589,10 +4584,10 @@ Wire Wire Line
 Wire Wire Line
 	18000 5750 18350 5750
 $Comp
-L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX?
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX68
 U 1 1 6542CD22
 P 19250 6450
-F 0 "MX?" H 19283 6673 60  0000 C CNN
+F 0 "MX68" H 19283 6673 60  0000 C CNN
 F 1 "SwThR" H 19283 6599 20  0000 C CNN
 F 2 "keyswitches:MX-GLP2-HotSwap" H 18625 6425 60  0001 C CNN
 F 3 "" H 18625 6425 60  0001 C CNN
@@ -4600,10 +4595,10 @@ F 3 "" H 18625 6425 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX?
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX65
 U 1 1 6542CD28
 P 18650 6300
-F 0 "MX?" H 18683 6523 60  0000 C CNN
+F 0 "MX65" H 18683 6523 60  0000 C CNN
 F 1 "SwThL" H 18683 6449 20  0000 C CNN
 F 2 "keyswitches:MX-GLP2-HotSwap" H 18025 6275 60  0001 C CNN
 F 3 "" H 18025 6275 60  0001 C CNN
@@ -4613,10 +4608,10 @@ $EndComp
 Wire Wire Line
 	18350 6500 18350 5750
 $Comp
-L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX?
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX62
 U 1 1 6542CD2F
 P 18200 6350
-F 0 "MX?" H 18233 6573 60  0000 C CNN
+F 0 "MX62" H 18233 6573 60  0000 C CNN
 F 1 "SwLMOD" H 18233 6499 20  0000 C CNN
 F 2 "keyswitches:MX-GLP2-HotSwap" H 17575 6325 60  0001 C CNN
 F 3 "" H 17575 6325 60  0001 C CNN
@@ -4632,10 +4627,10 @@ Wire Wire Line
 Wire Wire Line
 	18050 5900 18500 5900
 $Comp
-L Connector:Conn_01x04_Male J?
+L Connector:Conn_01x04_Male J53
 U 1 1 6542CD39
 P 17800 5550
-F 0 "J?" V 17862 5694 50  0000 L CNN
+F 0 "J53" V 17862 5694 50  0000 L CNN
 F 1 "Conn_01x04_Male" V 17953 5694 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 17800 5550 50  0001 C CNN
 F 3 "~" H 17800 5550 50  0001 C CNN
@@ -4667,10 +4662,10 @@ Connection ~ 19900 5900
 Wire Wire Line
 	19900 5900 20150 5900
 $Comp
-L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX?
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX60
 U 1 1 65485204
 P 17650 7700
-F 0 "MX?" H 17683 7923 60  0000 C CNN
+F 0 "MX60" H 17683 7923 60  0000 C CNN
 F 1 "SwLSHFT" H 17683 7849 20  0000 C CNN
 F 2 "keyswitches:MX-GLP2-HotSwap" H 17025 7675 60  0001 C CNN
 F 3 "" H 17025 7675 60  0001 C CNN
@@ -4678,10 +4673,10 @@ F 3 "" H 17025 7675 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX?
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX72
 U 1 1 6548520A
 P 19550 7800
-F 0 "MX?" H 19583 8023 60  0000 C CNN
+F 0 "MX72" H 19583 8023 60  0000 C CNN
 F 1 "SwRMOD" H 19583 7949 20  0000 C CNN
 F 2 "keyswitches:MX-GLP2-HotSwap" H 18925 7775 60  0001 C CNN
 F 3 "" H 18925 7775 60  0001 C CNN
@@ -4689,10 +4684,10 @@ F 3 "" H 18925 7775 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX?
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX75
 U 1 1 65485210
 P 20000 7800
-F 0 "MX?" H 20033 8023 60  0000 C CNN
+F 0 "MX75" H 20033 8023 60  0000 C CNN
 F 1 "SwRSHFT" H 20033 7949 20  0000 C CNN
 F 2 "keyswitches:MX-GLP2-HotSwap" H 19375 7775 60  0001 C CNN
 F 3 "" H 19375 7775 60  0001 C CNN
@@ -4700,10 +4695,10 @@ F 3 "" H 19375 7775 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x04_Male J?
+L Connector:Conn_01x04_Male J57
 U 1 1 65485216
 P 19700 7050
-F 0 "J?" V 19762 7194 50  0000 L CNN
+F 0 "J57" V 19762 7194 50  0000 L CNN
 F 1 "Conn_01x04_Male" V 19900 6150 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 19700 7050 50  0001 C CNN
 F 3 "~" H 19700 7050 50  0001 C CNN
@@ -4746,10 +4741,10 @@ Wire Wire Line
 Wire Wire Line
 	18000 7100 18350 7100
 $Comp
-L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX?
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX69
 U 1 1 6548522E
 P 19250 7800
-F 0 "MX?" H 19283 8023 60  0000 C CNN
+F 0 "MX69" H 19283 8023 60  0000 C CNN
 F 1 "SwThR" H 19283 7949 20  0000 C CNN
 F 2 "keyswitches:MX-GLP2-HotSwap" H 18625 7775 60  0001 C CNN
 F 3 "" H 18625 7775 60  0001 C CNN
@@ -4757,10 +4752,10 @@ F 3 "" H 18625 7775 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX?
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX66
 U 1 1 65485234
 P 18650 7650
-F 0 "MX?" H 18683 7873 60  0000 C CNN
+F 0 "MX66" H 18683 7873 60  0000 C CNN
 F 1 "SwThL" H 18683 7799 20  0000 C CNN
 F 2 "keyswitches:MX-GLP2-HotSwap" H 18025 7625 60  0001 C CNN
 F 3 "" H 18025 7625 60  0001 C CNN
@@ -4770,10 +4765,10 @@ $EndComp
 Wire Wire Line
 	18350 7850 18350 7100
 $Comp
-L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX?
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX63
 U 1 1 6548523B
 P 18200 7700
-F 0 "MX?" H 18233 7923 60  0000 C CNN
+F 0 "MX63" H 18233 7923 60  0000 C CNN
 F 1 "SwLMOD" H 18233 7849 20  0000 C CNN
 F 2 "keyswitches:MX-GLP2-HotSwap" H 17575 7675 60  0001 C CNN
 F 3 "" H 17575 7675 60  0001 C CNN
@@ -4789,10 +4784,10 @@ Wire Wire Line
 Wire Wire Line
 	18050 7250 18500 7250
 $Comp
-L Connector:Conn_01x04_Male J?
+L Connector:Conn_01x04_Male J54
 U 1 1 65485245
 P 17800 6900
-F 0 "J?" V 17862 7044 50  0000 L CNN
+F 0 "J54" V 17862 7044 50  0000 L CNN
 F 1 "Conn_01x04_Male" V 17953 7044 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 17800 6900 50  0001 C CNN
 F 3 "~" H 17800 6900 50  0001 C CNN
@@ -4829,4 +4824,276 @@ Text Notes 20650 6200 0    50   ~ 0
 - - _ Extra key in the middle finger column
 Text Notes 20600 7700 0    50   ~ 0
 _-- Extra key over the inner edge
+$Comp
+L Connector:Conn_01x04_Male J64
+U 1 1 65577A71
+P 13850 8350
+F 0 "J64" V 13912 8494 50  0000 L CNN
+F 1 "Raiser_Male" V 14003 8494 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 13850 8350 50  0001 C CNN
+F 3 "~" H 13850 8350 50  0001 C CNN
+	1    13850 8350
+	0    1    1    0   
+$EndComp
+NoConn ~ 13650 8550
+NoConn ~ 13750 8550
+NoConn ~ 13850 8550
+NoConn ~ 13950 8550
+$Comp
+L Connector:Conn_01x04_Male J63
+U 1 1 655D4255
+P 13800 8600
+F 0 "J63" V 13862 8744 50  0000 L CNN
+F 1 "Raiser_Male" V 13953 8744 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 13800 8600 50  0001 C CNN
+F 3 "~" H 13800 8600 50  0001 C CNN
+	1    13800 8600
+	0    1    1    0   
+$EndComp
+NoConn ~ 13600 8800
+NoConn ~ 13700 8800
+NoConn ~ 13800 8800
+NoConn ~ 13900 8800
+$Comp
+L Connector:Conn_01x04_Male J60
+U 1 1 6563060C
+P 13750 8800
+F 0 "J60" V 13812 8944 50  0000 L CNN
+F 1 "Raiser_Male" V 13903 8944 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 13750 8800 50  0001 C CNN
+F 3 "~" H 13750 8800 50  0001 C CNN
+	1    13750 8800
+	0    1    1    0   
+$EndComp
+NoConn ~ 13550 9000
+NoConn ~ 13650 9000
+NoConn ~ 13750 9000
+NoConn ~ 13850 9000
+$Comp
+L Connector:Conn_01x04_Male J61
+U 1 1 6568C9A4
+P 13750 9050
+F 0 "J61" V 13812 9194 50  0000 L CNN
+F 1 "Raiser_Male" V 13903 9194 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 13750 9050 50  0001 C CNN
+F 3 "~" H 13750 9050 50  0001 C CNN
+	1    13750 9050
+	0    1    1    0   
+$EndComp
+NoConn ~ 13550 9250
+NoConn ~ 13650 9250
+NoConn ~ 13750 9250
+NoConn ~ 13850 9250
+$Comp
+L Connector:Conn_01x04_Male J62
+U 1 1 656E8EC4
+P 13750 9350
+F 0 "J62" V 13812 9494 50  0000 L CNN
+F 1 "Raiser_Male" V 13903 9494 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 13750 9350 50  0001 C CNN
+F 3 "~" H 13750 9350 50  0001 C CNN
+	1    13750 9350
+	0    1    1    0   
+$EndComp
+NoConn ~ 13550 9550
+NoConn ~ 13650 9550
+NoConn ~ 13750 9550
+NoConn ~ 13850 9550
+$Comp
+L Connector:Conn_01x04_Male J59
+U 1 1 657450FF
+P 13700 9600
+F 0 "J59" V 13762 9744 50  0000 L CNN
+F 1 "Raiser_Male" V 13853 9744 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 13700 9600 50  0001 C CNN
+F 3 "~" H 13700 9600 50  0001 C CNN
+	1    13700 9600
+	0    1    1    0   
+$EndComp
+NoConn ~ 13500 9800
+NoConn ~ 13600 9800
+NoConn ~ 13700 9800
+NoConn ~ 13800 9800
+$Comp
+L Connector:Conn_01x04_Male J70
+U 1 1 657A1302
+P 14850 8350
+F 0 "J70" V 14912 8494 50  0000 L CNN
+F 1 "Raiser_Male" V 15003 8494 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 14850 8350 50  0001 C CNN
+F 3 "~" H 14850 8350 50  0001 C CNN
+	1    14850 8350
+	0    1    1    0   
+$EndComp
+NoConn ~ 14650 8550
+NoConn ~ 14750 8550
+NoConn ~ 14850 8550
+NoConn ~ 14950 8550
+$Comp
+L Connector:Conn_01x04_Male J65
+U 1 1 657FD74F
+P 14750 8650
+F 0 "J65" V 14812 8794 50  0000 L CNN
+F 1 "Raiser_Male" V 14903 8794 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 14750 8650 50  0001 C CNN
+F 3 "~" H 14750 8650 50  0001 C CNN
+	1    14750 8650
+	0    1    1    0   
+$EndComp
+NoConn ~ 14550 8850
+NoConn ~ 14650 8850
+NoConn ~ 14750 8850
+NoConn ~ 14850 8850
+$Comp
+L Connector:Conn_01x04_Male J67
+U 1 1 65859A94
+P 14800 8900
+F 0 "J67" V 14862 9044 50  0000 L CNN
+F 1 "Raiser_Male" V 14953 9044 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 14800 8900 50  0001 C CNN
+F 3 "~" H 14800 8900 50  0001 C CNN
+	1    14800 8900
+	0    1    1    0   
+$EndComp
+NoConn ~ 14600 9100
+NoConn ~ 14700 9100
+NoConn ~ 14800 9100
+NoConn ~ 14900 9100
+$Comp
+L Connector:Conn_01x04_Male J68
+U 1 1 658B5D64
+P 14800 9150
+F 0 "J68" V 14862 9294 50  0000 L CNN
+F 1 "Raiser_Male" V 14953 9294 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 14800 9150 50  0001 C CNN
+F 3 "~" H 14800 9150 50  0001 C CNN
+	1    14800 9150
+	0    1    1    0   
+$EndComp
+NoConn ~ 14600 9350
+NoConn ~ 14700 9350
+NoConn ~ 14800 9350
+NoConn ~ 14900 9350
+$Comp
+L Connector:Conn_01x04_Male J69
+U 1 1 6591202E
+P 14800 9400
+F 0 "J69" V 14862 9544 50  0000 L CNN
+F 1 "Raiser_Male" V 14953 9544 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 14800 9400 50  0001 C CNN
+F 3 "~" H 14800 9400 50  0001 C CNN
+	1    14800 9400
+	0    1    1    0   
+$EndComp
+NoConn ~ 14600 9600
+NoConn ~ 14700 9600
+NoConn ~ 14800 9600
+NoConn ~ 14900 9600
+$Comp
+L Connector:Conn_01x04_Male J66
+U 1 1 6596E2E9
+P 14750 9650
+F 0 "J66" V 14812 9794 50  0000 L CNN
+F 1 "Raiser_Male" V 14903 9794 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 14750 9650 50  0001 C CNN
+F 3 "~" H 14750 9650 50  0001 C CNN
+	1    14750 9650
+	0    1    1    0   
+$EndComp
+NoConn ~ 14550 9850
+NoConn ~ 14650 9850
+NoConn ~ 14750 9850
+NoConn ~ 14850 9850
+$Comp
+L Connector:Conn_01x04_Male J76
+U 1 1 659CA575
+P 15600 8350
+F 0 "J76" V 15662 8494 50  0000 L CNN
+F 1 "Raiser_Male" V 15753 8494 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 15600 8350 50  0001 C CNN
+F 3 "~" H 15600 8350 50  0001 C CNN
+	1    15600 8350
+	0    1    1    0   
+$EndComp
+NoConn ~ 15400 8550
+NoConn ~ 15500 8550
+NoConn ~ 15600 8550
+NoConn ~ 15700 8550
+$Comp
+L Connector:Conn_01x04_Male J75
+U 1 1 65A26811
+P 15550 8600
+F 0 "J75" V 15612 8744 50  0000 L CNN
+F 1 "Raiser_Male" V 15703 8744 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 15550 8600 50  0001 C CNN
+F 3 "~" H 15550 8600 50  0001 C CNN
+	1    15550 8600
+	0    1    1    0   
+$EndComp
+NoConn ~ 15350 8800
+NoConn ~ 15450 8800
+NoConn ~ 15550 8800
+NoConn ~ 15650 8800
+$Comp
+L Connector:Conn_01x04_Male J72
+U 1 1 65A82B2F
+P 15500 8850
+F 0 "J72" V 15562 8994 50  0000 L CNN
+F 1 "Raiser_Male" V 15653 8994 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 15500 8850 50  0001 C CNN
+F 3 "~" H 15500 8850 50  0001 C CNN
+	1    15500 8850
+	0    1    1    0   
+$EndComp
+NoConn ~ 15300 9050
+NoConn ~ 15400 9050
+NoConn ~ 15500 9050
+NoConn ~ 15600 9050
+$Comp
+L Connector:Conn_01x04_Male J71
+U 1 1 65ADF078
+P 15450 9100
+F 0 "J71" V 15512 9244 50  0000 L CNN
+F 1 "Raiser_Male" V 15603 9244 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 15450 9100 50  0001 C CNN
+F 3 "~" H 15450 9100 50  0001 C CNN
+	1    15450 9100
+	0    1    1    0   
+$EndComp
+NoConn ~ 15250 9300
+NoConn ~ 15350 9300
+NoConn ~ 15450 9300
+NoConn ~ 15550 9300
+$Comp
+L Connector:Conn_01x04_Male J73
+U 1 1 65B3B32D
+P 15500 9350
+F 0 "J73" V 15562 9494 50  0000 L CNN
+F 1 "Raiser_Male" V 15653 9494 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 15500 9350 50  0001 C CNN
+F 3 "~" H 15500 9350 50  0001 C CNN
+	1    15500 9350
+	0    1    1    0   
+$EndComp
+NoConn ~ 15300 9550
+NoConn ~ 15400 9550
+NoConn ~ 15500 9550
+NoConn ~ 15600 9550
+$Comp
+L Connector:Conn_01x04_Male J74
+U 1 1 65B976D9
+P 15500 9600
+F 0 "J74" V 15562 9744 50  0000 L CNN
+F 1 "Raiser_Male" V 15653 9744 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 15500 9600 50  0001 C CNN
+F 3 "~" H 15500 9600 50  0001 C CNN
+	1    15500 9600
+	0    1    1    0   
+$EndComp
+NoConn ~ 15300 9800
+NoConn ~ 15400 9800
+NoConn ~ 15500 9800
+NoConn ~ 15600 9800
+Wire Wire Line
+	19850 4500 20200 4500
 $EndSCHEMATC
