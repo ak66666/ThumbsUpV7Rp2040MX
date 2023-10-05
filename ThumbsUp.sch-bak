@@ -4580,8 +4580,6 @@ Connection ~ 19800 6000
 Wire Wire Line
 	20150 5900 20150 6600
 Wire Wire Line
-	19800 5900 19900 5900
-Wire Wire Line
 	18000 5750 18350 5750
 $Comp
 L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX68
@@ -4658,9 +4656,6 @@ Wire Wire Line
 	18950 6600 18950 5900
 Wire Wire Line
 	18950 5900 19600 5900
-Connection ~ 19900 5900
-Wire Wire Line
-	19900 5900 20150 5900
 $Comp
 L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX60
 U 1 1 65485204
@@ -4736,8 +4731,6 @@ Wire Wire Line
 Connection ~ 19800 7350
 Wire Wire Line
 	20150 7250 20150 7950
-Wire Wire Line
-	19800 7250 19900 7250
 Wire Wire Line
 	18000 7100 18350 7100
 $Comp
@@ -4815,9 +4808,6 @@ Wire Wire Line
 	18950 7950 18950 7250
 Wire Wire Line
 	18950 7250 19600 7250
-Connection ~ 19900 7250
-Wire Wire Line
-	19900 7250 20150 7250
 Text Notes 20750 4800 0    50   ~ 0
 =- Pattern
 Text Notes 20650 6200 0    50   ~ 0
@@ -5096,4 +5086,8 @@ NoConn ~ 15500 9800
 NoConn ~ 15600 9800
 Wire Wire Line
 	19850 4500 20200 4500
+Wire Wire Line
+	19800 5900 20150 5900
+Wire Wire Line
+	19800 7250 20150 7250
 $EndSCHEMATC

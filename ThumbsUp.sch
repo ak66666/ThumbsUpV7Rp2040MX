@@ -4058,28 +4058,6 @@ Wire Wire Line
 Connection ~ 15550 1200
 Wire Wire Line
 	15550 1200 15850 1200
-$Comp
-L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX58
-U 1 1 64E86BAF
-P 10000 15450
-F 0 "MX58" H 10033 15673 60  0000 C CNN
-F 1 "SwThR" H 10033 15599 20  0000 C CNN
-F 2 "keyswitches:MX-GLP2-HotSwap" H 9375 15425 60  0001 C CNN
-F 3 "" H 9375 15425 60  0001 C CNN
-	1    10000 15450
-	-1   0    0    -1  
-$EndComp
-$Comp
-L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX57
-U 1 1 64E85D21
-P 8400 15450
-F 0 "MX57" H 8433 15673 60  0000 C CNN
-F 1 "SwThL" H 8433 15599 20  0000 C CNN
-F 2 "keyswitches:MX-GLP2-HotSwap" H 7775 15425 60  0001 C CNN
-F 3 "" H 7775 15425 60  0001 C CNN
-	1    8400 15450
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	8100 15650 8100 14900
 $Comp
@@ -4094,13 +4072,9 @@ F 3 "" H 7325 15475 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	8250 15400 8250 15050
-Wire Wire Line
 	8000 15650 8100 15650
 Wire Wire Line
 	7800 15450 7800 15050
-Wire Wire Line
-	7800 15050 8250 15050
 $Comp
 L Connector:Conn_01x04_Male J4
 U 1 1 628F6492
@@ -4112,27 +4086,9 @@ F 3 "~" H 7550 14700 50  0001 C CNN
 	1    7550 14700
 	0    -1   1    0   
 $EndComp
-Connection ~ 7800 15050
 Connection ~ 7450 15050
 Wire Wire Line
 	7450 15050 7800 15050
-Wire Wire Line
-	7650 14900 7650 15800
-Wire Wire Line
-	7650 15800 8450 15800
-Wire Wire Line
-	8450 15800 8450 15600
-Wire Wire Line
-	9850 15400 9850 15000
-Wire Wire Line
-	9850 15000 10150 15000
-Connection ~ 10150 15000
-Wire Wire Line
-	10050 15600 9700 15600
-Wire Wire Line
-	9700 15600 9700 14900
-Wire Wire Line
-	9700 14900 10350 14900
 Text GLabel 10350 14350 1    50   Input ~ 0
 K_THR
 Text GLabel 7650 14350 1    50   Input ~ 0
@@ -5090,4 +5046,6 @@ Wire Wire Line
 	19800 5900 20150 5900
 Wire Wire Line
 	19800 7250 20150 7250
+NoConn ~ 7650 14900
+NoConn ~ 10350 14900
 $EndSCHEMATC
