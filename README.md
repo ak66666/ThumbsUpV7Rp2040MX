@@ -10,6 +10,8 @@ Multilevel 56/58 Key Split Contoured Keyboard.
 * Connects to computer from either side, halves could be used separately.
 * 3 different layouts for the 3-key cluster.
 
+Board needs 3D printed switch plates: https://github.com/ak66666/ThubmsUpSwitchPlates
+
 ![Main view](https://github.com/ak66666/ThumbsUpV7Rp2040MX/blob/main/Photos/IMG_20231024_213231552_HDR.jpg)
 ![Some keys are tucked under the middle PCB](https://github.com/ak66666/ThumbsUpV7Rp2040MX/blob/main/Photos/IMG_20231024_213416897_HDR.jpg)
 
